@@ -1,0 +1,33 @@
+{
+  "name": "valko-pro-html-project",
+  "version": "1.0.0",
+  "description": "Bundle your HTML project now!",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valko-pro/valko-pro-html-project.git"
+  },
+  "author": "Oleg Valko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/valko-pro/valko-pro-html-project/issues"
+  },
+  "homepage": "https://github.com/valko-pro/valko-pro-html-project#readme",
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "laravel-mix": "^5.0.5",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^10.0.2",
+    "vue-template-compiler": "^2.6.12",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "sass": "^1.26.10"
+  }
+}
