@@ -1,7 +1,8 @@
 const mix = require('laravel-mix');
 
-mix.js('resources/js/main.js', 'public/js/')
-mix.sass('resources/sсss/styles.scss', 'public/css/');
-mix.options({
-	processCssUrls: false,
+mix
+	.sass('resources/scss/styles.scss', 'public/css/')
+	.js('resources/js/main.js', 'public/js/')
+	.options({
+		processCssUrls: false,
 	});
