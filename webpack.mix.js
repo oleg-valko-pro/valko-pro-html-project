@@ -10,8 +10,8 @@ mix
 		removeComments: true
 	}
 	})
-	.sass('resources/scss/styles.scss', 'public/css/')
-	.js('resources/js/main.js', 'public/js/')
+	.sass('resources/scss/styles.scss', 'public/assets/css/')
+	.js('resources/js/main.js', 'public/assets/js/')
 	.options({
 		processCssUrls: false,
 	});
