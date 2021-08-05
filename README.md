@@ -3,8 +3,7 @@ Bundle your HTML project now!
 
 ```
 1. npm install
-2. npm watch
-3. 
+2. npm run watch
 ````
 
 ```
