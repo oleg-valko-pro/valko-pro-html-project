@@ -24,7 +24,7 @@
     "filename-regex": "^2.0.1",
     "laravel-mix": "^5.0.5",
     "mix-html-builder": "^0.6.1",
-    "sass": "^1.26.10",
+    "sass": "^1.38.1",
     "sass-loader": "^8.0.2",
     "smart-grid": "^2.1.2",
     "vue-template-compiler": "^2.6.12"
