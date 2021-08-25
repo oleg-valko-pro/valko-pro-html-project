@@ -20,6 +20,7 @@
   "homepage": "https://github.com/valko-pro/valko-pro-html-project#readme",
   "devDependencies": {
     "cross-env": "^7.0.2",
+    "css-mqpacker": "^7.0.0",
     "filename-regex": "^2.0.1",
     "laravel-mix": "^5.0.5",
     "mix-html-builder": "^0.6.1",

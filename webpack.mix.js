@@ -14,4 +14,7 @@ mix
 	.js('resources/js/main.js', 'public/assets/js/')
 	.options({
 		processCssUrls: false,
+		postCss: [
+			require('css-mqpacker'),
+		],
 	});
