@@ -17,4 +17,11 @@ mix
 		postCss: [
 			require('css-mqpacker'),
 		],
+	})
+	.browserSync({
+		proxy: "http://local.test/",
+		startPath: '/public/index.html',
+		browser: 'chrome',
+		files: './public/*',
+		injectChanges: false
 	});

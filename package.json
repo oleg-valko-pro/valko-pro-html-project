@@ -27,7 +27,8 @@
     "sass": "^1.38.1",
     "sass-loader": "^8.0.2",
     "smart-grid": "^2.1.2",
-    "vue-template-compiler": "^2.6.12"
+    "vue-template-compiler": "^2.6.12",
+	"browser-sync": "^1.7.2"
   },
   "dependencies": {
     "jquery": "^3.6.0",
